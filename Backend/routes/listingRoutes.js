@@ -5,7 +5,7 @@ import {
   createListing,
   updateListing,
   deleteListing
-} from "../controllers/listingController.js";
+} from "../Controllers/listingController.js";
 
 import protect from "../middleware/authMiddleware.js";
 
