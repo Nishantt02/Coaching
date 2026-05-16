@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 
 import api from "../services/api";
 
-import ListingCard from "../components/ListingCard";
+// import ListingCard from "../components/ListingCard";
+import ListingCard from '../components/Listingcard.jsx'
 
-import SearchBar from "../components/SearchBar";
+import SearchBar from "../components/SearchBar.jsx";
 
-import FilterBar from "../components/FilterBar";
+import FilterBar from "../components/FilterBar.jsx";
 
-import GoogleMapComponent from "../components/GoogleMapComponent";
+import GoogleMapComponent from "../components/GoogleMapComponent.jsx";
 
 
 const Home = () => {
